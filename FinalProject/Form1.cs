@@ -83,7 +83,7 @@ namespace FinalProject
 
                 //  Put in SQL Command
                 //  NOTE: Equivalent to SELECT * FROM customers;
-                sql = "SELECT TOP 10 customerFirstName, customerLastName, customerStreetAddress, customerCity, customerState, customerZipCode, customerAreaCode, customerPhoneNumber FROM Customers";
+                sql = "SELECT TOP 10 customerFirstName, customerLastName, customerStreetAddress, customerCity, customerState, customerZipCode, customerAreaCode, customerPhoneNumber FROM Customers Order By customerID DESC";
                 
                 //  A SqlCommand object lets you query and send commands
                 //  to a database.  It has methods that are specialized

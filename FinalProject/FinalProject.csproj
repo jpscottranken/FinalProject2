@@ -187,6 +187,7 @@
     <Compile Include="FormProductOptions.Designer.cs">
       <DependentUpon>FormProductOptions.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
